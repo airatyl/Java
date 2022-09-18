@@ -1,7 +1,11 @@
 package ru.mirea.kvbo01.bilyaletdinova.task4;
 
 public enum Season {
-    summer(22),
+    summer(22){
+        public String getDescription(){
+            return "Теплое время года";
+        }
+    },
     autumn(10),
     winter(-10),
     spring(15);
@@ -13,10 +17,6 @@ public enum Season {
         return this.temp;
     }
     public String getDescription(){
-
-        if (temp==22) {
-            return "Теплое время года";
-        }
         return "Холодное время года";
     }
 }
