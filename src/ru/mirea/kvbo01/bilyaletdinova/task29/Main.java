@@ -3,7 +3,6 @@ package ru.mirea.kvbo01.bilyaletdinova.task29;
 import java.util.Scanner;
 
 public class Main {
-    private static final int INF = 9999999;
 
     public static void main(String[] args) {
         solve();
